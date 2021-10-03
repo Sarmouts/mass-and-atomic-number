@@ -25,7 +25,7 @@ int main()
 	{
 		cout << "Same elements must have the same atomic number and different elements must have different atomic mumber" << endl;
 	}
-	else if (!(x >= 2 * y || a >= 2 * b))
+	else if (x < 2 * y || a < 2 * b)
 	{
 		cout << "Mass number must be greater or equal to the double of atomic number" << endl;
 	}
