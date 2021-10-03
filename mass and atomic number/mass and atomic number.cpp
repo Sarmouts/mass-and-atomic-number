@@ -44,7 +44,7 @@ int main()
 		{
 			cout << y << "p+ = " << b << "p+" << endl;
 			cout << y << "e- = " << b << "e-" << endl;
-			cout << x - y << "n != " << a - b << "n" << endl;
+			cout << x - y << "n = " << a - b << "n" << endl;
 			cout << "Same chemical element, same chemical properties" << endl;
 			cout << "Same mass" << endl;
 		}
